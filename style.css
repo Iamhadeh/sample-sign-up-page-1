@@ -1,0 +1,294 @@
+
+
+body {
+    background-color: beige;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: linear-gradient(300deg, rgb(243, 243, 96), rgb(165, 165, 16), rgb(89, 250, 89));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.All-content {
+    display: flex;
+}
+
+#image-logo {
+    padding-top: 20px;
+    height: 480px;
+    width: 480px;
+}
+
+p {
+    color: rgb(80, 73, 73);
+}
+
+h1 {
+    color: gray;
+}
+
+.main-text {
+    color: black;
+}
+
+.dark-text {
+    color: black;
+    font-weight: bold;
+
+}
+
+.input {
+    border-left: 2px solid red;
+}
+
+
+
+.main {
+    background-color: rgb(138, 207, 138);
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.the-other-side {
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 18px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    top: 150px;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    padding-left: 320px;
+}
+
+.remember-me {
+    display: flex;
+    gap: 100px;
+    height: 80px;
+}
+
+#login {
+    background-color: black;
+    color: white;
+}
+
+#Sign-up {
+    background-color: white;
+    font-weight: bolder;
+    width: 2rem;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+      background-color: rgb(6, 248, 6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+.All-content {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+#image-logo {
+    padding-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.main {
+    background-color: rgb(138, 207, 138);
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.the-other-side {
+    background-color: yellow;
+    height: 320px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    top: 150px;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    padding-left: 150px;
+}
+
+  }
+
+
+  
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    body {
+      background-color: rgb(6, 248, 6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+.All-content {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+#image-logo {
+    padding-top: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.main {
+    background-color: rgb(138, 207, 138);
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.the-other-side {
+    background-color: yellow;
+    height: 320px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    top: 150px;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    padding-left: 150px;
+}
+
+  }
+
+
+
+  @media screen and (min-width: 641px) and (max-width: 1200px) {
+    body {
+      background-color: rgb(6, 248, 6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    
+#image-logo {
+    padding-top: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+
+.main {
+    background-color: rgb(138, 207, 138);
+    height: 420px;
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.the-other-side {
+    background-color: yellow;
+    height: 420px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    top: 150px;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    padding-left: 150px;
+}
+
+}
+
+
